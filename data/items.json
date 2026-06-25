@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "name": "Boremaskine",
+      "location": "Skur > Kommode > Ovenpå",
+      "category": "Værktøj",
+      "id": "e71bf4b0-8d68-496b-b50c-f72845661311",
+      "createdAt": "2026-06-25T14:27:49.205Z",
+      "updatedAt": "2026-06-25T14:27:49.205Z"
+    }
+  ]
 }
