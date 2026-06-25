@@ -8,6 +8,14 @@
       "id": "a777ea3a-1a9d-42fb-9b56-5e2a6408ad0e",
       "createdAt": "2026-06-25T14:10:27.408Z",
       "updatedAt": "2026-06-25T14:10:27.408Z"
+    },
+    {
+      "name": "Boremaskine",
+      "location": "Skur > Høje Kommode > Ovenpå",
+      "category": "Værktøj",
+      "id": "f35c4bbd-0474-4436-874b-82e6a6f1fa87",
+      "createdAt": "2026-06-25T14:14:36.025Z",
+      "updatedAt": "2026-06-25T14:14:36.025Z"
     }
   ]
 }
