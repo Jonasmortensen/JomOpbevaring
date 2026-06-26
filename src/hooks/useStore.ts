@@ -38,6 +38,8 @@ interface StoreContextValue {
   locations: string[];
   categories: string[];
   addItem(draft: Omit<Item, 'id' | 'createdAt' | 'updatedAt'>): Promise<void>;
+  updateItem(id: string, draft: Omit<Item, 'id' | 'createdAt' | 'updatedAt'>): Promise<void>;
+  deleteItem(id: string): Promise<void>;
   reload(): void;
 }
 
@@ -70,6 +72,40 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     window.addEventListener('jom_settings_changed', handler);
     return () => window.removeEventListener('jom_settings_changed', handler);
   }, []);
+
+  const updateItem = useCallback(async (id: string, draft: Omit<Item, 'id' | 'createdAt' | 'updatedAt'>) => {
+    const now = new Date().toISOString();
+    const next: Store = {
+      ...store,
+      items: store.items.map(i => i.id === id ? { ...i, ...draft, updatedAt: now } : i),
+    };
+    setStore(next);
+    setIsSaving(true);
+    setError(null);
+    try {
+      await adapter.save(next);
+    } catch (e) {
+      setStore(store);
+      setError(e instanceof Error ? e.message : 'Failed to save');
+    } finally {
+      setIsSaving(false);
+    }
+  }, [adapter, store]);
+
+  const deleteItem = useCallback(async (id: string) => {
+    const next: Store = { ...store, items: store.items.filter(i => i.id !== id) };
+    setStore(next);
+    setIsSaving(true);
+    setError(null);
+    try {
+      await adapter.save(next);
+    } catch (e) {
+      setStore(store);
+      setError(e instanceof Error ? e.message : 'Failed to save');
+    } finally {
+      setIsSaving(false);
+    }
+  }, [adapter, store]);
 
   const addItem = useCallback(async (draft: Omit<Item, 'id' | 'createdAt' | 'updatedAt'>) => {
     const now = new Date().toISOString();
@@ -112,6 +148,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     locations,
     categories,
     addItem,
+    updateItem,
+    deleteItem,
     reload: loadData,
   };
 

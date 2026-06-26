@@ -32,6 +32,7 @@ export class GitHubAdapter implements StorageAdapter {
   async load(): Promise<Store> {
     const res = await fetch(`${this.apiUrl}?ref=${this.settings.branch}`, {
       headers: this.headers,
+      cache: 'no-store',
     });
 
     if (res.status === 404) return { ...EMPTY_STORE };

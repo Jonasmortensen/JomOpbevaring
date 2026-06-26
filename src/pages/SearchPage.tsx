@@ -1,11 +1,14 @@
 import { useMemo, useState } from 'react';
+import { EditModal } from '../components/EditModal';
 import { ItemCard } from '../components/ItemCard';
 import { SearchBar } from '../components/SearchBar';
 import { useStore } from '../hooks/useStore';
+import type { Item } from '../storage/types';
 
 export function SearchPage() {
-  const { items, isLoading, error } = useStore();
+  const { items, isLoading, error, deleteItem } = useStore();
   const [query, setQuery] = useState('');
+  const [editingItem, setEditingItem] = useState<Item | null>(null);
 
   const results = useMemo(() => {
     if (!query.trim()) return items;
@@ -20,6 +23,7 @@ export function SearchPage() {
 
   return (
     <div className="space-y-4">
+      {editingItem && <EditModal item={editingItem} onClose={() => setEditingItem(null)} />}
       <SearchBar value={query} onChange={setQuery} />
 
       {error && (
@@ -35,7 +39,7 @@ export function SearchPage() {
       ) : (
         <div className="space-y-2">
           {results.map(item => (
-            <ItemCard key={item.id} item={item} />
+            <ItemCard key={item.id} item={item} onEdit={setEditingItem} onDelete={deleteItem} />
           ))}
           <p className="text-xs text-center text-gray-300 pt-2">
             {results.length} af {items.length} genstand{items.length !== 1 ? 'e' : ''}
