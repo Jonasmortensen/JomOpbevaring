@@ -64,7 +64,7 @@ export function EditModal({ item, onClose }: Props) {
               value={location}
               onChange={setLocation}
               suggestions={locations}
-              placeholder="f.eks. Skur > Øverste hylde > Rød kasse"
+              placeholder="f.eks. Skur - Øverste hylde - Rød kasse"
               required
             />
           </div>
