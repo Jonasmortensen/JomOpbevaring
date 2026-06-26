@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "name": "Boremaskine",
+      "location": "Skur - Hylde - Ovenpå",
+      "category": "Elværktøj",
+      "id": "09dd81ef-e57b-417a-becd-0114ee9a1766",
+      "createdAt": "2026-06-26T07:27:14.667Z",
+      "updatedAt": "2026-06-26T07:27:14.667Z"
+    }
+  ]
 }
