@@ -16,6 +16,14 @@
       "id": "e061a3b0-c33c-41c8-ac24-bb0c0d6729f2",
       "createdAt": "2026-06-26T07:27:51.998Z",
       "updatedAt": "2026-06-26T07:27:51.998Z"
+    },
+    {
+      "name": "Støvsugerdele",
+      "location": "Kælder - Kontor - Venstre skab - Skuffe 3",
+      "category": "Rengøring",
+      "id": "6af31e71-eeb5-4941-a666-52f6fa318034",
+      "createdAt": "2026-07-09T15:46:56.254Z",
+      "updatedAt": "2026-07-09T15:46:56.254Z"
     }
   ]
 }
