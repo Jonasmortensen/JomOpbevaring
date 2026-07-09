@@ -24,6 +24,14 @@
       "id": "6af31e71-eeb5-4941-a666-52f6fa318034",
       "createdAt": "2026-07-09T15:46:56.254Z",
       "updatedAt": "2026-07-09T15:46:56.254Z"
+    },
+    {
+      "name": "Regnslag (Roskilde)",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Tøj",
+      "id": "ba49d3da-ab35-4ee7-956c-0f350d0368a5",
+      "createdAt": "2026-07-09T17:14:50.287Z",
+      "updatedAt": "2026-07-09T17:14:50.287Z"
     }
   ]
 }
