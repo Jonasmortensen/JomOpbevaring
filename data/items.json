@@ -48,6 +48,14 @@
       "id": "68c439aa-706f-45db-a6f0-a22527e1b47e",
       "createdAt": "2026-07-25T07:37:01.911Z",
       "updatedAt": "2026-07-25T07:37:01.911Z"
+    },
+    {
+      "name": "Soppebassin",
+      "location": "Værksted - Bord - C.2",
+      "category": "Baby",
+      "id": "a5c6044d-4fba-43c9-935e-308abcf378fb",
+      "createdAt": "2026-07-25T12:45:49.452Z",
+      "updatedAt": "2026-07-25T12:45:49.452Z"
     }
   ]
 }
