@@ -56,6 +56,14 @@
       "id": "a5c6044d-4fba-43c9-935e-308abcf378fb",
       "createdAt": "2026-07-25T12:45:49.452Z",
       "updatedAt": "2026-07-25T12:45:49.452Z"
+    },
+    {
+      "name": "Powerbank",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Elektronik",
+      "id": "04cc4d2e-cf32-49a0-914a-bda0290d33b9",
+      "createdAt": "2026-07-25T14:47:59.589Z",
+      "updatedAt": "2026-07-25T14:47:59.589Z"
     }
   ]
 }
