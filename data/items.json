@@ -72,6 +72,14 @@
       "id": "125219a4-ea4e-41f8-9b80-c00cb8ce6675",
       "createdAt": "2026-07-25T14:48:20.748Z",
       "updatedAt": "2026-07-25T14:48:20.748Z"
+    },
+    {
+      "name": "Dymo",
+      "location": "Værksted - Bord - C.2",
+      "category": "Andet",
+      "id": "74196c86-bef2-40c5-aa07-8e6250f602e4",
+      "createdAt": "2026-07-25T15:33:00.219Z",
+      "updatedAt": "2026-07-25T15:33:00.219Z"
     }
   ]
 }
