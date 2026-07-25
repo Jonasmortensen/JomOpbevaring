@@ -40,6 +40,14 @@
       "id": "b538d924-d847-4c7a-81fa-6d13f1a4c422",
       "createdAt": "2026-07-25T07:36:11.815Z",
       "updatedAt": "2026-07-25T07:36:11.815Z"
+    },
+    {
+      "name": "Badering",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Baby",
+      "id": "68c439aa-706f-45db-a6f0-a22527e1b47e",
+      "createdAt": "2026-07-25T07:37:01.911Z",
+      "updatedAt": "2026-07-25T07:37:01.911Z"
     }
   ]
 }
