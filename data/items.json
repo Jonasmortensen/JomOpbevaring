@@ -64,6 +64,14 @@
       "id": "04cc4d2e-cf32-49a0-914a-bda0290d33b9",
       "createdAt": "2026-07-25T14:47:59.589Z",
       "updatedAt": "2026-07-25T14:47:59.589Z"
+    },
+    {
+      "name": "Blæser",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Baby",
+      "id": "125219a4-ea4e-41f8-9b80-c00cb8ce6675",
+      "createdAt": "2026-07-25T14:48:20.748Z",
+      "updatedAt": "2026-07-25T14:48:20.748Z"
     }
   ]
 }
