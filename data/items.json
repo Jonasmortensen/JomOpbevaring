@@ -80,6 +80,14 @@
       "id": "74196c86-bef2-40c5-aa07-8e6250f602e4",
       "createdAt": "2026-07-25T15:33:00.219Z",
       "updatedAt": "2026-07-25T15:33:00.219Z"
+    },
+    {
+      "name": "Termokande",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Rejse",
+      "id": "8453afbf-0ec2-4ba2-9a32-d5a3d29aa1fc",
+      "createdAt": "2026-07-25T16:16:43.549Z",
+      "updatedAt": "2026-07-25T16:16:43.549Z"
     }
   ]
 }
