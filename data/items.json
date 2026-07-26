@@ -88,6 +88,14 @@
       "id": "8453afbf-0ec2-4ba2-9a32-d5a3d29aa1fc",
       "createdAt": "2026-07-25T16:16:43.549Z",
       "updatedAt": "2026-07-25T16:16:43.549Z"
+    },
+    {
+      "name": "Myggenet til barnevogn",
+      "location": "Ovenpå - Pulterrum",
+      "category": "Baby",
+      "id": "82cb8d12-03f6-47cb-81d8-3aecce2d104e",
+      "createdAt": "2026-07-26T09:25:41.617Z",
+      "updatedAt": "2026-07-26T09:25:41.617Z"
     }
   ]
 }
