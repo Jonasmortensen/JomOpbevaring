@@ -112,6 +112,14 @@
       "id": "c703d798-03c6-4398-aa53-7816e722e149",
       "createdAt": "2026-07-28T13:00:40.305Z",
       "updatedAt": "2026-07-28T13:00:55.041Z"
+    },
+    {
+      "name": "Fjernsynsfødder (ukendt)",
+      "location": "Kælder - Kontor - Venstre skab -",
+      "category": "Tech",
+      "id": "6d6e29f8-db10-4b76-ac9a-59ee9627f553",
+      "createdAt": "2026-07-28T13:08:37.479Z",
+      "updatedAt": "2026-07-28T13:08:37.479Z"
     }
   ]
 }
