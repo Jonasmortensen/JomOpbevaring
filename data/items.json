@@ -120,6 +120,14 @@
       "id": "6d6e29f8-db10-4b76-ac9a-59ee9627f553",
       "createdAt": "2026-07-28T13:08:37.479Z",
       "updatedAt": "2026-07-28T13:08:37.479Z"
+    },
+    {
+      "name": "TV fod (LG C1)",
+      "location": "Kælder - Kontor - Venstre skab -",
+      "category": "Tech",
+      "id": "2a10d949-0b5e-4e1b-8f19-e3746a05e8b0",
+      "createdAt": "2026-07-28T13:17:12.480Z",
+      "updatedAt": "2026-07-28T13:17:12.480Z"
     }
   ]
 }
