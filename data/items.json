@@ -152,6 +152,14 @@
       "id": "7a90e55c-3f0f-4b2a-8ba0-4bb1e1d409bb",
       "createdAt": "2026-08-01T10:27:55.799Z",
       "updatedAt": "2026-08-01T10:27:55.799Z"
+    },
+    {
+      "name": "Isskraber",
+      "location": "Kælder - Kontor - Venstre skab - Skuffe 3",
+      "category": "Bil",
+      "id": "1321f711-fbaf-42af-9c25-8ecd520de41d",
+      "createdAt": "2026-08-01T10:28:54.028Z",
+      "updatedAt": "2026-08-01T10:28:54.028Z"
     }
   ]
 }
