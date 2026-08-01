@@ -128,6 +128,14 @@
       "id": "2a10d949-0b5e-4e1b-8f19-e3746a05e8b0",
       "createdAt": "2026-07-28T13:17:12.480Z",
       "updatedAt": "2026-07-28T13:17:12.480Z"
+    },
+    {
+      "name": "Løbedunk",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Sport",
+      "id": "154d5ed8-bee1-461e-86f0-69f2ad54de31",
+      "createdAt": "2026-08-01T10:20:39.227Z",
+      "updatedAt": "2026-08-01T10:20:39.227Z"
     }
   ]
 }
