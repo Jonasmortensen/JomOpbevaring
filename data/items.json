@@ -136,6 +136,14 @@
       "id": "154d5ed8-bee1-461e-86f0-69f2ad54de31",
       "createdAt": "2026-08-01T10:20:39.227Z",
       "updatedAt": "2026-08-01T10:20:39.227Z"
+    },
+    {
+      "name": "Fannypack",
+      "location": "Kælder - Gæsteværelse - Rejseskab",
+      "category": "Tasker",
+      "id": "9aefdebc-7c0e-4f1a-b0e0-34c7374a2431",
+      "createdAt": "2026-08-01T10:20:55.395Z",
+      "updatedAt": "2026-08-01T10:20:55.395Z"
     }
   ]
 }
