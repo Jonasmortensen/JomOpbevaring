@@ -160,6 +160,14 @@
       "id": "1321f711-fbaf-42af-9c25-8ecd520de41d",
       "createdAt": "2026-08-01T10:28:54.028Z",
       "updatedAt": "2026-08-01T10:28:54.028Z"
+    },
+    {
+      "name": "Grønne affaldsposer",
+      "location": "Værksted - Bord - B.4",
+      "category": "Andet",
+      "id": "e363222a-60fa-481f-bcc6-6c00cf5f309d",
+      "createdAt": "2026-08-07T10:12:20.043Z",
+      "updatedAt": "2026-08-07T10:12:20.043Z"
     }
   ]
 }
