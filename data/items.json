@@ -168,6 +168,14 @@
       "id": "e363222a-60fa-481f-bcc6-6c00cf5f309d",
       "createdAt": "2026-08-07T10:12:20.043Z",
       "updatedAt": "2026-08-07T10:12:20.043Z"
+    },
+    {
+      "name": "Store skruer",
+      "location": "Værksted - Bord - A.2",
+      "category": "Skruer",
+      "id": "ab8560ce-78b9-46be-a2b9-44c3e039d99f",
+      "createdAt": "2026-08-07T10:20:34.858Z",
+      "updatedAt": "2026-08-07T10:20:34.858Z"
     }
   ]
 }
